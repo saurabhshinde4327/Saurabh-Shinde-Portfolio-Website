@@ -1,6 +1,6 @@
-# Portfolio Website - Software Engineer & Data Science
+# Saurabh Shinde - Portfolio Website
 
-A modern, animated portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+A modern and responsive personal portfolio website built with clean UI and smooth animations. Showcases projects, skills, and experience with a focus on performance and minimal design.
 
 ## Features
 
@@ -8,8 +8,9 @@ A modern, animated portfolio website built with Next.js, TypeScript, and Tailwin
 - ✨ Smooth animations using Framer Motion
 - 📱 Fully responsive design
 - 🚀 Built with Next.js 14 and TypeScript
-- 🎯 Sections: Hero, About, Skills, Projects, Contact
+- 🎯 Sections: Hero, About, Experience, Skills, Projects, Contact
 - 📧 Contact form with email functionality
+- 🔍 Comprehensive SEO optimization
 
 ## Getting Started
 
@@ -54,6 +55,7 @@ npm run dev
 - Update personal information in components (About, Contact, etc.)
 - Replace project data in `components/Projects.tsx`
 - Modify skills in `components/Skills.tsx`
+- Update experience in `components/Experience.tsx`
 - Update social links in `components/Footer.tsx` and `components/Navbar.tsx`
 
 ## Environment Variables
@@ -114,4 +116,3 @@ The website includes comprehensive SEO optimization:
 - Framer Motion
 - React Icons
 - Nodemailer
-
