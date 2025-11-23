@@ -249,88 +249,23 @@ const Hero = () => {
             className="flex-1 flex justify-center lg:justify-end relative"
           >
             <div className="relative">
-              {/* Animated Glow Ring */}
-              <motion.div
-                className="absolute inset-0 rounded-full"
-                animate={{
-                  scale: [1, 1.1, 1],
-                  opacity: [0.5, 0.8, 0.5],
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  ease: 'easeInOut',
-                }}
-              >
-                <div className="w-full h-full rounded-full bg-gradient-to-r from-primary-500/50 via-blue-500/50 to-white/30 blur-2xl" />
-              </motion.div>
-
-              {/* Rotating Border */}
-              <motion.div
-                className="absolute -inset-4 rounded-full"
-                animate={{ rotate: 360 }}
-                transition={{
-                  duration: 20,
-                  repeat: Infinity,
-                  ease: 'linear',
-                }}
-              >
-                <div className="w-full h-full rounded-full bg-gradient-to-r from-primary-500 via-blue-500 to-white p-1">
-                  <div className="w-full h-full rounded-full bg-gray-900" />
-                </div>
-              </motion.div>
-
               {/* Image Container */}
-              <motion.div
-                whileHover={{ scale: 1.05 }}
-                className="relative w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden border-4 border-primary-500/30 shadow-2xl"
-              >
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-500/20 to-blue-500/20 z-10" />
+              <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-lg overflow-hidden shadow-2xl">
                 {!imageError ? (
-                  <Image
-                    src="/profile.jpg"
+                  <img
+                    src="/Profile Photo.png"
                     alt="Profile Picture"
-                    fill
-                    className="object-cover z-0"
-                    priority
-                    sizes="(max-width: 768px) 192px, (max-width: 1024px) 224px, 256px"
+                    className="w-full h-full object-cover"
                     onError={() => setImageError(true)}
                   />
                 ) : (
-                  <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-500/30 to-blue-500/30 z-0">
+                  <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-500/30 to-blue-500/30">
                     <div className="text-4xl md:text-5xl lg:text-6xl font-bold text-white/70">
                       SS
                     </div>
                   </div>
                 )}
-              </motion.div>
-
-              {/* Floating Decorative Elements */}
-              <motion.div
-                className="absolute -top-4 -right-4 w-16 h-16 bg-primary-500/30 rounded-full blur-xl"
-                animate={{
-                  y: [0, -20, 0],
-                  scale: [1, 1.2, 1],
-                }}
-                transition={{
-                  duration: 4,
-                  repeat: Infinity,
-                  ease: 'easeInOut',
-                }}
-              />
-              <motion.div
-                className="absolute -bottom-4 -left-4 w-20 h-20 bg-blue-500/30 rounded-full blur-xl"
-                animate={{
-                  y: [0, 20, 0],
-                  scale: [1, 1.3, 1],
-                }}
-                transition={{
-                  duration: 5,
-                  repeat: Infinity,
-                  ease: 'easeInOut',
-                  delay: 0.5,
-                }}
-              />
+              </div>
             </div>
           </motion.div>
         </div>
