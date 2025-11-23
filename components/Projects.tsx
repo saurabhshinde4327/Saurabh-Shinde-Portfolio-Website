@@ -11,64 +11,46 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Healthcare Android Application',
       description:
-        'Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: '#',
-      demo: '#',
-      category: 'software',
+        'CACTUS – Mental Wellness and Daily Health Journal is an academic project designed to help users track their physical and mental well-being in a simple, organized, and secure way. The application features a robust backend built with Kotlin, managing core logic and data processing efficiently. The frontend is developed using XML-based UI layouts, delivering an intuitive and user-friendly interface. For data management, the project uses Firebase Realtime Database, enabling seamless cloud synchronization and secure storage of user entries. Additionally, Firebase Authentication is integrated to ensure safe user registration, login, and account management, maintaining strong privacy and security standards. This project showcases a complete end-to-end Android app solution focused on promoting healthier daily habits.',
+      image: '/Health Android Application.png',
+      
     },
     {
-      title: 'Predictive Analytics Dashboard',
+      title: 'Data Analysis: Exploratory Data Analysis on Sales Data',
       description:
-        'Machine learning-powered dashboard for sales forecasting and customer behavior analysis. Built with Python, TensorFlow, and React.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800',
-      tags: ['Python', 'TensorFlow', 'React', 'PostgreSQL'],
-      github: '#',
-      demo: '#',
-      category: 'data-science',
+        'Data Analysis: Exploratory Data Analysis on Sales Data is a comprehensive analytical project focused on uncovering meaningful insights from raw sales data. The objective of this project is to perform in-depth Exploratory Data Analysis (EDA) using Python to understand trends, patterns, and relationships within the dataset, while leveraging Power BI for interactive and visually compelling dashboards. The process begins with thorough data preparation, including cleaning the dataset, handling missing values, removing duplicates, and correcting inconsistencies. Using Python, key descriptive statistics such as mean, median, mode, and standard deviation are computed, along with correlation analysis to explore relationships between variables. Finally, insights are visualized using Power BI, enabling clear identification of trends, anomalies, and actionable observations that support informed business decision-making.',
+      image: '/Data Analysis.png',
+      
     },
     {
-      title: 'Real-Time Chat Application',
+      title: 'YCIS Data Center – Full Admin Management Panel',
       description:
-        'Scalable chat application with WebSocket support, real-time messaging, and file sharing capabilities.',
-      image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800',
-      tags: ['Next.js', 'Socket.io', 'TypeScript', 'Redis'],
-      github: '#',
-      demo: '#',
-      category: 'software',
+        'YCIS Data Center – Full Admin Management Panel is a web-based dashboard designed to manage students, users, file uploads, storage insights, and department statistics. Built with Next.js, Tailwind CSS, and Axios, it provides a secure, fast, and intuitive interface for centralized data center operations.',
+      image: '/Data Center Website.png',
+      
     },
     {
-      title: 'Customer Churn Prediction Model',
+      title: 'YCIS Locker – Cloud File Management System',
       description:
-        'ML model to predict customer churn with 92% accuracy. Includes data preprocessing pipeline and visualization dashboard.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800',
-      tags: ['Python', 'Scikit-learn', 'Pandas', 'Flask'],
-      github: '#',
-      demo: '#',
-      category: 'data-science',
+        'YCIS Locker – Secure File Storage & Sharing Platform is a web application that allows users to upload, store, and share files securely. Built using Next.js, Tailwind CSS, and Axios, it provides user authentication, a clean UI, and real-time file management capabilities.',
+      image: '/YCIS Locker.png',
+      
     },
     {
-      title: 'Task Management System',
+      title: 'AgroTrack – Smart Farming & Voice-Assisted Support App',
       description:
-        'Collaborative task management platform with real-time updates, team collaboration, and project tracking features.',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800',
-      tags: ['React', 'Node.js', 'PostgreSQL', 'GraphQL'],
-      github: '#',
-      demo: '#',
-      category: 'software',
+        'AgroTrack is a Marathi-language mobile application designed to help farmers efficiently track their plantation activities and daily agricultural processes. The app simplifies farm management by allowing users to record crop progress, maintain schedules, and monitor important tasks. It also includes a built-in voice assistant that helps farmers easily generate official letters and documentation using spoken Marathi, making the process fast and accessible for those with limited typing skills. AgroTrack provides a practical, user-friendly solution to support farmers in improving productivity and managing their agricultural workflow more effectively.',
+      image: '/AgroTrack.png',
+      
     },
     {
-      title: 'Image Classification API',
+      title: 'Teaching Assistant for Students – AI-Powered Learning Support System',
       description:
-        'Deep learning API for image classification using CNN. Supports multiple model architectures and batch processing.',
-      image: 'https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=800',
-      tags: ['Python', 'PyTorch', 'FastAPI', 'Docker'],
-      github: '#',
-      demo: '#',
-      category: 'data-science',
+        'eaching Assistant for Students is an AI-powered learning support system built using Streamlit and Machine Learning algorithms to help students improve their academic performance. The system provides personalized assistance by analyzing student inputs, generating study recommendations, and offering automated responses to common academic queries. Using Streamlit, the project delivers a clean, interactive, and user-friendly interface, while machine learning models enable intelligent predictions, content suggestions, and data-driven insights. This project demonstrates effective integration of ML with modern UI tools to create a smart digital assistant for students.',
+      image: '/Teaching Assistant.png',
+      
     },
   ]
 

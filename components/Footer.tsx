@@ -41,7 +41,7 @@ const Footer = () => {
           >
             <div className="flex items-center justify-center md:justify-start gap-2 text-xl font-bold gradient-text mb-2">
               <FaCode />
-              <span>Portfolio</span>
+              <span>Saurabh Shinde</span>
             </div>
             <p className="text-sm text-gray-400 mb-3">
               Software Engineer & Data Scientist
@@ -134,7 +134,7 @@ const Footer = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-gray-800 text-center text-xs md:text-sm text-gray-400"
         >
-          <p>&copy; {new Date().getFullYear()} Portfolio. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Saurabh Shinde. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>

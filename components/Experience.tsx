@@ -12,43 +12,43 @@ const Experience = () => {
 
   const experiences = [
     {
-      title: 'Software Engineer',
-      company: 'Company Name',
-      location: 'Location',
-      period: '2022 - Present',
+      title: 'Operational Manager',
+      company: 'YCIS Data and Technology Center',
+      location: 'Satara, Maharashtra',
+      period: '2024 - Present',
       description: [
-        'Developed and maintained full-stack web applications using modern technologies',
-        'Implemented RESTful APIs and microservices architecture',
-        'Collaborated with cross-functional teams to deliver high-quality software solutions',
-        'Optimized application performance and improved user experience',
+        'Managed daily operations of the institution, ensuring smooth administrative and academic workflows.',
+        'Supervised teams and delegated responsibilities to achieve institutional goals.',
+        'Handled Proxmox OS for virtualization and server management.',
+        'Managed deployment and maintenance of web applications, including Node.js, PHP, and WordPress.',
       ],
-      technologies: ['React', 'Node.js', 'TypeScript', 'MongoDB', 'AWS'],
+      
     },
     {
-      title: 'Data Scientist',
-      company: 'Company Name',
-      location: 'Location',
-      period: '2020 - 2022',
+      title: 'Assistant Professor',
+      company: 'Yashavantrao Chavan Institute of Science',
+      location: 'Satara, Maharashtra',
+      period: '2023 - Present',
       description: [
-        'Built and deployed machine learning models for predictive analytics',
-        'Analyzed large datasets to extract actionable business insights',
-        'Created data visualizations and interactive dashboards',
-        'Collaborated with stakeholders to define data requirements and solutions',
+        'Developed and enhanced course materials to stay current with industry advancements and trends.',
+        '2 Years of Experience in Data Science Department',
+        'Taught courses on data science, including Python, Power BI, and SQL',
       ],
-      technologies: ['Python', 'TensorFlow', 'Pandas', 'SQL', 'Tableau'],
+      
     },
+    
     {
-      title: 'Junior Developer',
-      company: 'Company Name',
-      location: 'Location',
-      period: '2019 - 2020',
+      title: 'Jr. Software Developer ',
+      company: 'Agroson Alliance LLP',
+      location: 'Satara, Maharashtra',
+      period: '2022 - 2023',
       description: [
-        'Developed responsive web applications using React and JavaScript',
-        'Participated in code reviews and agile development processes',
-        'Fixed bugs and implemented new features based on requirements',
-        'Learned and applied best practices in software development',
+        '1 Year of Experience in Agroson Alliance LLP as Jr. Software Developer.',
+        'Collaborate with senior developers to design, develop, and maintain scalable web applications.',
+        'Version control systems, particularly Git, for collaboration and version management.',
+        'Proficiency in HTML, CSS, JavaScript, and familiarity with front-end frameworks like ReactJS.',
       ],
-      technologies: ['JavaScript', 'React', 'HTML', 'CSS', 'Git'],
+      
     },
   ]
 

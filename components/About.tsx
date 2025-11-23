@@ -67,20 +67,18 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="glass-dark p-8 md:p-12 rounded-2xl"
           >
-            <h3 className="text-2xl font-bold text-white mb-4">
-              My Journey
-            </h3>
+            
             <p className="text-gray-300 leading-relaxed mb-4">
-              With a strong foundation in both software engineering and data science,
-              I bring a unique perspective to every project. I specialize in building
-              robust applications while leveraging data-driven insights to create
-              intelligent solutions.
-            </p>
-            <p className="text-gray-300 leading-relaxed">
-              My expertise spans from developing scalable web applications to
-              implementing machine learning models that drive business value. I'm
-              passionate about continuous learning and staying updated with the
-              latest technologies and methodologies.
+            Detail-oriented and highly motivated Software Developer with 2+ years of combined experience in software
+development, data science education, and IT operations. Proficient in Java, Python, and C, with hands-on expertise in web
+technologies, data visualization, and backend development. Strong background in academic teaching and team leadership,
+having served as an Assistant Professor and Operational Manager, alongside industry experience as a Jr. Software
+Developer.
+Skilled in developing scalable web applications using Java, Node.js, HTML, CSS, JavaScript, and ReactJS, with
+experience in Firebase, MySQL, MongoDB, and Power BI. Passionate about solving real-world problems through datadriven insights and software innovation.
+Known for quick learning, cross-functional collaboration, and a strong foundation in OOP principles and software
+lifecycle practices. Currently pursuing M. Tech in Computer Science and Engineering, with a continuous drive for
+learning and applying emerging technologies in impactful ways.
             </p>
           </motion.div>
         </div>

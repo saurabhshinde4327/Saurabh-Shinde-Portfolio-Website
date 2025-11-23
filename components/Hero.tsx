@@ -222,9 +222,7 @@ const Hero = () => {
               variants={itemVariants}
               className="text-base md:text-lg text-gray-300 mb-6 max-w-3xl mx-auto lg:mx-0 leading-relaxed"
             >
-              Transforming complex problems into elegant solutions through cutting-edge software development 
-              and data-driven analytics. Passionate about creating impactful applications and extracting 
-              meaningful insights from data.
+              Dedicated to transforming complex challenges into practical, high-impact solutions. As an Assistant Professor, I contribute to shaping future technologists, while as a Data Center Operations Manager, I ensure reliable and optimized infrastructure performance. Alongside this, I work as a freelance developer, building efficient applications and data-driven systems. Passionate about innovative software development, machine learning, and creating meaningful digital experiences.
             </motion.p>
 
             <motion.div
